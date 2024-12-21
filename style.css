@@ -1,0 +1,61 @@
+body { 
+    background-color: white;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 22px;
+    padding: 8px;
+    background-color: aquamarine;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(46, 140, 255);
+}
+
+.marca {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(205, 6, 6);
+    text-align: left;
+    margin-left: 15px;
+    color: 
+    width: 100%;
+}
+
+.frase {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(205, 6, 6);
+    width: 100%;
+text-align: left;
+margin-right: 265px;
+}
+
+.login {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px; rgb(205, 6, 6)
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #f90e0e;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    float: right;
+    background-color: #f90e0e; /* defina a cor de background para os links */
+    padding: 0px; /* ajuste a altura dos links */
+    color: white;
+  }
